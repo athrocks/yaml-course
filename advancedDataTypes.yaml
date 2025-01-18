@@ -14,5 +14,34 @@ sparse seq:
  -
  - Null-sup
 
+# nested sequences
+- 
+ - mango
+ - apple
+ - banana
+-
+ - marks
+ - roll num
+ - date
 
+# nested mappings
 
+name: Atharva Pardeshi
+role: 
+  age: 78
+  job: student
+
+# & many more data types search
+
+# reusing some properties using anchors
+liking: &likes_dislikes
+  fav fruit: Mango
+  dislike: grapes
+
+person:
+  name: Atharva Pardeshi
+  <<: *likes_dislikes
+
+person2:
+  name: Rahul
+  <<: *likes_dislikes
