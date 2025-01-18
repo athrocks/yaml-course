@@ -1,0 +1,18 @@
+student :
+ - marks
+ - name
+ - roll_no
+
+# same as above
+student : [marks,name,roll__no]
+
+# some of the keys of seq will be empty
+# sparse seq
+sparse seq:
+ - hey
+ - how
+ -
+ - Null-sup
+
+
+
