@@ -1,0 +1,31 @@
+# String variables
+name: Atharva Pardeshi
+fruits: "apple"
+job: 'swe'
+
+bio: |
+  hey my name is.
+  I am a nice guy.
+  And this is stored
+  just like writen
+  in seperate lines 
+
+message: >
+  this will
+  all be 
+  in one single line.
+
+
+# numbers
+num : 5473
+num2 : 34.2
+
+# boolean values
+isEnabled : true   # Boolean true
+isEnabled2 : True   # Boolean true
+isEnabled3 : TRUE   # Boolean true
+isAvailable : False  # Boolean false
+isAvailable2 : false  # Boolean false
+isAvailable3 : FALSE  # Boolean false
+
+# 

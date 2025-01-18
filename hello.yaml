@@ -1,0 +1,21 @@
+# Key value pairs
+"apple" : "I am a red Fruit"
+42 : "My Roll number"
+
+--- # seperates documents
+
+# Lists
+- apple
+- Apple #yaml is case sensitive hence apple & Apple is different
+- mango
+- banana
+
+---
+
+# block style
+cities:
+ - new Delhi
+ - mumbai
+ - nashik
+
+... # end of document
